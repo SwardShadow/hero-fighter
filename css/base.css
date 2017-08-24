@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+em, i {
+  font-style: normal
+}
+
+li {
+  list-style: none
+}
+
+img {
+  border: 0;
+  vertical-align: middle
+}
+
+button {
+  cursor: pointer
+}
+
+a {
+  color: #666;
+  text-decoration: none
+}
+
+a:hover {
+  color: #c81623
+}
+
+button, input {
+  font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+  color: #666;
+  /*
+      min-width:数值px;
+      表示的是意思，该元素的最小宽度是多少（不能比该设置的with小）
+  */
+  min-width:1300px;
+}
+
+.hide, .none {
+  display: none
+}
+
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0
+}
+
+.clearfix {
+  *zoom: 1
+}
+/*版心*/
+
+input {
+  border: none;
+  outline: none;
+}

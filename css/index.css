@@ -1,0 +1,508 @@
+/*header start*/
+.header {
+  height: 55px;
+  background-color: #FBFBFB;
+}
+
+.header .logo {
+  width: 133px;
+  height: 44px;
+  background-image: url("../img/logo.png");
+  float: left;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.header .logo a {
+  display: inline-block;
+  width: 133px;
+  height: 44px;
+  font-size: 0;
+}
+
+.header .right {
+  float: right;
+  margin-right: 100px;
+}
+
+.header .right ul li {
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.header .block {
+  position: relative;
+  width: 1000px;
+  height: 473px;
+  background-color: #f5f3fc;
+  display: none;
+  position: absolute;
+  top: 52px;
+  right: 100px;
+  opacity: 0.95;
+  z-index: 99999;
+}
+
+.header .block .top {
+  height: 38px;
+  line-height: 38px;
+  background-color: #eeecf6;
+  font-size: 15px;
+  font-weight: bold;
+  color: #b7313a;
+}
+
+.header .block .top .one {
+  float: left;
+  width: 237px;
+  border-right: 1px solid #e6e3ec;
+  padding-left: 20px;
+}
+
+.header .block .top .two {
+  float: left;
+  width: 570px;
+  border-right: 1px solid #e6e3ec;
+  padding-left: 20px;
+}
+
+.header .block .top .three {
+  float: left;
+  width: 127px;
+  padding-left: 20px;
+}
+
+.header .block .content .cos {
+  padding-top: 16px;
+  float: left;
+  width: 237px;
+  height: 418px;
+  padding-left: 20px;
+  border-right: 1px solid #e6e3ec;
+}
+
+.header .block .content .cos .t {
+  height: 254px;
+}
+
+.header .block .content .cos .b {
+  margin-top: 10px;
+}
+
+.header .block .content .hot {
+  padding-top: 16px;
+  float: left;
+  width: 137px;
+  height: 418px;
+  padding-left: 20px;
+  border-right: 1px solid #e6e3ec;
+}
+
+.header .block .content .new {
+  padding-top: 16px;
+  float: left;
+  width: 412px;
+  height: 418px;
+  padding-left: 20px;
+  border-right: 1px solid #e6e3ec;
+}
+
+.header .block .content .new ul {
+  width: 120px;
+}
+
+.header .block .content .buf {
+  padding-top: 16px;
+  float: left;
+  width: 127px;
+  padding-left: 20px;
+}
+
+.header .block .content ul {
+  width: 115px;
+  float: left;
+  list-style: none;
+  font-size: 12px;
+  color: #625e68;
+}
+
+.header .block .content li {
+  line-height: 22px;
+  width: 115px;
+  position: relative;
+}
+
+.header .block .content p {
+  font-size: 14px;
+  color: #625e68;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+.header .block .content a {
+  color: #625e68;
+}
+
+.header .block .content a:hover {
+  color: #c81623;
+}
+
+.header .block .content i {
+  width: 18px;
+  height: 9px;
+  /*background-color: red;*/
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 5px;
+
+}
+
+.header .block .content i.jl1 {
+  background: url("../img/jingling2.png") -96px -278px;
+}
+
+.header .block .content i.jl2 {
+  width: 18px;
+  height: 9px;
+  background: url("../img/jingling2.png") -97px -152px;
+}
+
+.header .block .content i.jl3 {
+  width: 18px;
+  height: 9px;
+  background: url("../img/jingling2.png") -96px -213px;
+}
+
+.header .block .content .red {
+  width: 12px;
+  height: 105px;
+  background-color: #bf3838;
+  position: absolute;
+  left: 818px;
+  top: 156px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+.header .block .content .red a {
+  color: #ffffff;
+}
+
+/*top end*/
+/*main start*/
+.main {
+  height: 860px;
+  background: url("../img/bg.jpg") no-repeat center -36px;
+}
+
+/*导航栏*/
+.main .banner {
+  position: relative;
+  margin-left: 180px;
+  padding-top: 40px;
+}
+
+.main .banner li {
+  float: left;
+}
+
+.main .banner li a {
+  width: 200px;
+  height: 75px;
+  display: inline-block;
+  background: #20C5FE;
+  font: normal bold 40px/75px "微软雅黑";
+  text-align: center;
+  color: white;
+  border: 1px solid #20C5FE;
+}
+
+.main .banner li a:hover {
+  background-color: #F5B82C;
+}
+
+#circleL {
+  border-bottom-left-radius: 35px;
+  border-top-left-radius: 35px;
+  background-color: #F5B82C;
+}
+
+#circleR {
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+/*弧度出来*/
+.main .banner .center {
+  font-size: 0px;
+}
+
+#heart {
+  position: absolute;
+  left: 378px;
+  top: 10px;
+}
+
+#rude {
+  position: absolute;
+  left: 200px;
+  top: 130px;
+}
+
+/*二维码大军*/
+.main .banner .ewm .one {
+  margin-top: 258px;
+  position: absolute;
+  right: 0px;
+}
+
+.main .banner .ewm .two {
+  float: right;
+  margin-top: 430px;
+  padding-top: 30px;
+}
+
+.main .banner .ewm .three img {
+  width: 100px;
+  height: 100px;
+}
+
+.main .banner .ewm .three {
+  position: absolute;
+  top: 500px;
+  right: 12px;
+}
+
+/*中间的播放器*/
+.main .banner .radio .snow {
+  position: absolute;
+  top: 500px;
+  left: 370px;
+}
+
+.main .banner .radio .click {
+  position: absolute;
+  top: 540px;
+  left: 410px;
+}
+
+/*下面的下载项目*/
+.main .banner .download .apple {
+  position: absolute;
+  top: 680px;
+  left: 420px;
+}
+
+.main .banner .download .anzhuo {
+  position: absolute;
+  top: 740px;
+  left: 420px;
+}
+
+.main .banner .download .saoma {
+  position: absolute;
+  top: 680px;
+  left: 270px;
+}
+
+.main .banner .download .ewm img {
+  width: 110px;
+  height: 110px;
+}
+
+.main .banner .download .ewm {
+  position: absolute;
+  top: 680px;
+  left: 295px;
+}
+
+/*新闻和轮播图*/
+.news {
+  height: 331px;
+  background: #698FA7;
+  position: relative;
+}
+
+#rmhd {
+  position: absolute;
+  left: 54px;
+  top: 35px;
+}
+
+.news .left img {
+  position: absolute;
+  left: 167px;
+  top: 35px;
+}
+
+#yxxw {
+  position: absolute;
+  left: 663px;
+  top: 35px;
+}
+
+.news .right {
+  margin: 0 auto;
+}
+
+.news .right .xinwen {
+  position: absolute;
+  left: 777px;
+  top: 20px;
+}
+
+.news .right .xinwen .newstop li {
+  width: 120px;
+  display: inline-block;
+  border-bottom: 2px solid skyblue;
+  text-align: center;
+  position: relative;
+}
+
+.news .right .xinwen .newstop li a {
+  color: #000000;
+  font: normal bold 30px/30px "微软雅黑";
+}
+
+.news .right .xinwen .newstop li a:hover {
+  color: #20C5FE;
+}
+
+.news .right .xinwen .newstop .active {
+  border-bottom: 2px solid #F5B82C;
+}
+
+.news .right .xinwen .newsContent .newsList {
+  float: left;
+  display: none;
+}
+
+.news .right .xinwen .newsContent .selected {
+  display: block;
+}
+
+.news .right .xinwen .newsContent .newsList ul li {
+  padding-top: 25px;
+}
+
+.news .right .xinwen .newsContent .newsList ul li a {
+  color: #FBFBFB;
+  font: 16px/16px "微软雅黑";
+}
+
+.news .right .xinwen .newsContent .newsList ul li a:hover {
+  color: #20C5FE;
+}
+
+/*大轮播图*/
+.last{
+  height: 400px;
+  background: url("../img/footer-bg.jpg") -10px 0px;
+}
+.last .wrap {
+  height: 400px;
+  margin:0 100px 0px 100px;
+  position: relative;
+}
+.last .wrap ul li{
+  border: 5px solid #F5B82C;
+}
+.last .wrap .slide {
+  position: relative;
+}
+
+.last .wrap .slide li {
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+
+.last .wrap .slide li img {
+  width: 100%;
+}
+
+.last .wrap .arrow {
+  opacity: 0;
+  width: 76px;
+  height: 112px;
+}
+#arrLeft{
+  width: 76px;
+  height: 112px;
+  position: absolute;
+  left:0;
+  top: 100px;
+}
+#arrRight{
+  width: 76px;
+  height: 112px;
+  position:absolute;
+  right:30px;
+  top:100px;
+}
+/*main end*/
+/*foot start*/
+.footer {
+  height: 217px;
+  background: #2A313A;
+  position: relative;
+  border-top: 1px solid black;
+}
+
+.footer .top .left {
+  margin-bottom: 10px;
+  margin-top: 51px;
+  margin-left: 262px;
+}
+
+.footer .floor {
+  margin-left: 262px;
+  position: relative;
+}
+
+.footer .floor p {
+  color: #FBFBFB;
+  line-height: 25px;
+}
+
+.footer .top .right ul {
+  position: absolute;
+  top: 50px;
+  left: 555px;
+}
+
+.footer .top .right p {
+  margin-left: 575px;
+  color: #FBFBFB;
+}
+
+.footer .top .right ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.footer .top .right ul li a {
+  color: #ffffff;
+}
+
+.footer .top .right ul li a:hover {
+  color: #c81623;
+}
+
+.footer .floor a img {
+  width: 142px;
+  height: 26px;
+  position: absolute;
+  left: 700px;
+  top: -20px;
+}
+
+/*foot end*/
